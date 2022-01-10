@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <script src="./main.js" defer></script>
+    <title>Document</title>
+</head>
+<body>
+        <div id="enterLogo" class="">
+            <div id="ghostBox" class="">
+                <div id="ghost" class="spook"></div>
+            </div>
+    
+            <div id="enterBox" class="">
+                <a href="#" id="enter">
+                    <span>ENTER</span></a>
+            </div>
+        </div>
+
+    <!-- signup modal -->
+    <div id="modal" class="container" style="display: none;">
+
+        <!-- User inputs/reg -->
+        <div class="container" id="userInput" style="display: none;">
+            <div class="header">
+                <h2>Account creation</h2>
+            </div>
+
+            <form action="" class="form" id="form">
+                <!-- Email input -->
+                <div class="form-control">
+                    <label>Email</label>
+                    <input type="email" name="" id="email" placeholder="email@example.com" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <!-- Username input -->
+                <div class="form-control">
+                    <label>Username</label>
+                    <input type="text" name="" id="username" placeholder="Username" autocomplete="off">
+                     <i class="fas fa-check-circle"></i>
+                     <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-control">
+                    <label>Password</label>
+                    <input type="password" name="" id="password" placeholder="Password" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-control">
+                    <label>Repeat Password</label>
+                    <input type="password" name="" id="password2" placeholder="Repeat Password" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Submit</button>
+            </form>
+        </div>
+
+        <!-- Sign in modal -->
+        <div id="signin" class="container" style="display: none;">
+            <form action="" class="form" id="sign-in">
+                
+                <!-- Username input -->
+                <div class="form-control">
+                    <label>Username</label>
+                    <input type="text" name="" id="username2" placeholder="Username" autocomplete="off">
+                     <i class="fas fa-check-circle"></i>
+                     <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+
+                <!-- Password input -->
+                <div class="form-control">
+                    <label>Password</label>
+                    <input type="password" name="" id="password3" placeholder="Password" autocomplete="off">
+                    <i class="fas fa-check-circle"></i>
+                    <i class="fas fa-exclamation-circle"></i>
+                    <small>Error message</small>
+                </div>
+                <button>Sign in</button>
+            </form>
+        </div>
+<!-- post login modal -->
+        <div id="postLogin" class="welcome" style="display: none; margin: 16px;">
+            <h1>Welcome to best cybersecurity yes.</h1>
+        </div>
+    </div>
+    
+    <!-- btn for testing the animation -->
+    <button id="testersign" style="position: absolute; left: 25px; top: 5px;">Test sign</button>
+    <button id="testerlog" style="position: absolute; left: 25px; top: 35px;">Test log</button>
+
+    <button id="testerAni" style="position: absolute; left: 25px; top: 65px;">Test post</button>
+</body>
+</html>
